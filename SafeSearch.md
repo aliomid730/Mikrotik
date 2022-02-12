@@ -10,6 +10,8 @@ add chain=dstnat in-interface-list=LAN port=53 protocol=udp action=dst-nat to-ad
 ```
 If you are using Mikrotik you can add static entries using the following commnads.
 ```
+ip dns set server=208.67.222.123,208.67.220.123 allow-remote-requests=yes cache-size=8192
+ip firewall filter set in-interface-list=WAN dst-port=53 protocol=udp action=drop
 /ip dns static
 add address=216.239.38.120 name=restrictmoderate.youtube.com ttl=300 comment=ForceSafeSearch
 add address=216.239.38.120 name=youtube.com ttl=300 comment=ForceSafeSearch
