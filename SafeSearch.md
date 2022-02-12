@@ -1,7 +1,7 @@
 # Blocking Pornography Sites and Turning on Google, Youtube, Bing Safe Search!
 
 ### Mikrotik
-Blocking pornography sites and porn search results can be done easily via DNS.
+Blocking pornography sites and porn search results can be done easily via DNS but VPN is your enemy.
 Make sure that if clients change their DNS settings redirect all DNS traffic to OpenDNS IPs (208.67.222.123 and 208.67.220.123).
 ```
 ip firewall nat
