@@ -33,7 +33,6 @@ add address=204.79.197.220 name=www.bing.com ttl=300 comment=ForceSafeSearch
 add address=204.79.197.220 name=m.bing.com ttl=300 comment=ForceSafeSearch
 /ip dns cache flush
 ```
-Thanks
 You can also enable safe search by adding the following DNS static entries to your local DNS server to force clients to use safe search enabled apps.
 ```
 216.239.38.120 restrictmoderate.youtube.com
@@ -56,3 +55,4 @@ You can also enable safe search by adding the following DNS static entries to yo
 204.79.197.220 www.bing.com
 204.79.197.220 m.bing.com
 ```
+Thanks
