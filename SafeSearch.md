@@ -16,10 +16,10 @@ add address=216.239.38.120 name=restrict.youtube.com ttl=300 comment=ForceSafeSe
 add address=216.239.38.120 name=forcesafesearch.google.com ttl=300 comment=ForceSafeSearch
 add address=216.239.38.120 name=www.google.com.af ttl=300 comment=ForceSafeSearch
 add address=216.239.38.120 name=google.com ttl=300 comment=ForceSafeSearch
+add address=216.239.38.120 name=google.com.af ttl=300 comment=ForceSafeSearch
 add address=216.239.38.120 name=www.google.com ttl=300 comment=ForceSafeSearch
 add address=216.239.38.120 name=m.google.com ttl=300 comment=ForceSafeSearch
-add address=216.239.38.120 name=www.google.co.id ttl=300 comment=ForceSafeSearch
-add address=216.239.38.120 name=m.google.co.id ttl=300 comment=ForceSafeSearch
+add address=216.239.38.120 name=m.google.com.af ttl=300 comment=ForceSafeSearch
 add address=204.79.197.220 name=strict.bing.com ttl=300 comment=ForceSafeSearch
 add address=204.79.197.220 name=bing.com ttl=300 comment=ForceSafeSearch
 add address=204.79.197.220 name=www.bing.com ttl=300 comment=ForceSafeSearch
@@ -41,9 +41,8 @@ You can also enable safe search by adding the following DNS static entries to yo
 216.239.38.120 google.com
 216.239.38.120 www.google.com
 216.239.38.120 m.google.com
-216.239.38.120 google.co.id
-216.239.38.120 www.google.co.id
-216.239.38.120 m.google.co.id
+216.239.38.120 google.com.af
+216.239.38.120 www.google.com.af
 204.79.197.220 strict.bing.com
 204.79.197.220 bing.com
 204.79.197.220 www.bing.com
