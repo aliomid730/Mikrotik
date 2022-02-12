@@ -1,6 +1,13 @@
-# Turning on Google, Youtube, Bing Safe Search
+# Blocking Pornography Sites and Turning on Google, Youtube, Bing Safe Search!
 
 ### Mikrotik
+Blocking pornography sites and porn search results can be done easily via DNS.
+Make sure that if clients change their DNS settings redirect all DNS traffic to OpenDNS IPs (208.67.222.123 and 208.67.220.123).
+```
+ip firewall nat
+add chain=dstnat in-interface-list=LAN port=53 protocol=udp action=dst-nat to-addresses=208.67.222.123
+add chain=dstnat in-interface-list=LAN port=53 protocol=udp action=dst-nat to-addresses=208.67.220.123
+```
 If you are using Mikrotik you can add static entries using the following commnads.
 ```
 /ip dns static
